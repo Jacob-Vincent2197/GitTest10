@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA9EA95A2527847F00A42B98 /* gitignore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9EA9592527847F00A42B98 /* gitignore.swift */; };
 		CACF18F92524EB0700EACE4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF18F82524EB0700EACE4B /* AppDelegate.swift */; };
 		CACF18FB2524EB0700EACE4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF18FA2524EB0700EACE4B /* ViewController.swift */; };
 		CACF18FE2524EB0700EACE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACF18FC2524EB0700EACE4B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA9EA9592527847F00A42B98 /* gitignore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gitignore.swift; sourceTree = "<group>"; };
 		CACF18F52524EB0700EACE4B /* GitTest10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACF18F82524EB0700EACE4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CACF18FA2524EB0700EACE4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		CACF18EC2524EB0700EACE4B = {
 			isa = PBXGroup;
 			children = (
+				CACF190E2524F18900EACE4B /* Git */,
 				CACF18F72524EB0700EACE4B /* GitTest10 */,
 				CACF18F62524EB0700EACE4B /* Products */,
 			);
@@ -62,6 +65,14 @@
 				CACF19042524EB0700EACE4B /* Info.plist */,
 			);
 			path = GitTest10;
+			sourceTree = "<group>";
+		};
+		CACF190E2524F18900EACE4B /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				CA9EA9592527847F00A42B98 /* gitignore.swift */,
+			);
+			path = Git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				CACF18FB2524EB0700EACE4B /* ViewController.swift in Sources */,
 				CACF18F92524EB0700EACE4B /* AppDelegate.swift in Sources */,
+				CA9EA95A2527847F00A42B98 /* gitignore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
